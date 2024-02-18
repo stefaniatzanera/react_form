@@ -1,0 +1,549 @@
+    /*GENERAL*/
+*{
+    box-sizing: border-box;
+    margin:0; 
+    padding:0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+a{
+    color:black;
+}
+
+.formdiv{
+    display:flex;
+    flex-direction: column;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/*------------------*/
+/*-----FORM-----*/
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 60px 0 60px;
+    width:800px;
+    box-shadow:10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 60px;
+}
+
+input[type=text],input[type=email],input[type=number],textarea{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    display: flex;
+    padding:16px;
+    width:320px;
+}
+/*------------------*/
+
+/*-----titleDiv-----*/
+.title{
+    display: flex;
+    justify-content: center;
+    font-size:26px;
+    font-family: "Times New Roman", Times, serif;
+    padding: 40px 0 20px 0;
+}
+/*------------------*/
+
+/*-----selectoptionDiv-----*/
+.slc{
+    display: flex;
+    justify-content: center;
+    padding: 14px 0 14px 0;
+}
+
+select{
+    width: 100%;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 18px;
+    background-color: white;
+}
+/*------------------*/
+
+/*-----fullnameDiv-----*/
+.fullname{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.name{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.lstname{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+/*------------------*/
+
+/*-----infoDiv-----*/
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.email, .orderid{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+/*------------------*/
+
+/*-----messageDiv-----*/
+.msg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.msgtitle{
+    font-weight: bold;
+    font-size: 16px;
+    align-self: flex-start;
+    padding-bottom: 10px;
+}
+
+textarea{
+    width:100%;
+}
+/*------------------*/
+/*-----extraDiv-----*/
+.extra{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.txt{
+    align-self: flex-start;
+}
+
+.check{
+    align-self: flex-end;
+}
+/*------------------*/
+
+/*-----submitDiv-----*/
+.submitbtn{
+    display: flex;
+    padding: 40px 0px 80px 20px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.btn{
+    background-color: black;
+    border: solid black;
+    color: white;
+    border-radius: 4px;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    width: 34%;
+}
+/*------------------*/
+
+/*-----submittedDataDiv-----*/
+.infos{
+    margin-bottom: 60px;
+}
+
+.submitteddata{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0 60px 0 60px;
+    width:800px;
+    box-shadow:10px 10px 10px 00px rgba(0, 0, 0, 0.1);
+    margin-bottom: 400px;
+}
+
+.userinfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    display: flex;
+    padding:16px;
+    font-weight:bold ;
+    margin-bottom: 50px;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.usermessage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    padding:16px;
+}
+
+.question{
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    display: flex;
+    padding:16px;
+    word-break: break-all;
+    overflow: hidden;
+}
+/*------------------*/
+
+/*-----BONUS-----*/
+.logo2{
+    box-shadow:0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bonus{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.submitteddatainotherpage{
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    padding: 0 300px 0 300px;
+    margin-top: 50px;
+}
+
+.bns{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: white;
+    box-shadow:10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 0 60px 0 60px;
+}
+
+.title2{
+    display: flex;
+    justify-content: center;
+    font-size:26px;
+    font-family: "Times New Roman", Times, serif;
+    padding: 40px 0 20px 0;
+}
+
+.userinfo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    display: flex;
+    padding:16px;
+    font-weight:bold ;
+    margin-bottom: 50px;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.usermessage2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    padding:16px;
+}
+
+.backbtn {
+    display: flex;
+    padding: 40px 0px 80px 20px;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.bck{
+    background-color: black;
+    border: solid black;
+    color: white;
+    border-radius: 4px;
+    font-size: 22px;
+    padding: 10px 20px 10px 20px;
+    width: 34%;
+}
+
+@media only screen and (max-width: 960px) {
+    .formdiv{
+        display:flex;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .bonus1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+    }
+
+    form, .submitteddata{
+        display:flex;
+    }
+
+    .submitteddatainotherpage{
+        display: flex;
+    }
+
+    input[type=text],input[type=email],input[type=number],textarea{
+        display: flex;
+    }
+
+    textarea{
+        display: flex;
+    }
+
+    .title, .slc, .title2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .slc{
+        padding: 0 30px 0 30px;
+        margin: 0 150px 0 150px;
+    }
+
+    select{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fullname, .info, .msg, .extra{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .extra{
+        display: flex;
+        flex-direction: column;
+        padding: 0 150px 0 150px;
+    }
+
+    .msg, .usermessage{
+        padding: 0 30px 0 30px;
+        margin: 0 150px 0 150px;
+    }
+
+    .msgtitle{
+        display: flex;
+    }
+
+    .txt{
+        justify-content: center;
+        display: flex;
+        align-self: center;
+    }
+
+    .check{
+        justify-content: center;
+        display: flex;
+        align-self: center;
+    }
+
+    .submitbtn{
+        display:flex;
+        justify-content: center;
+    }
+
+    .infos, .bns{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .userinfo, .userinfo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .userinfo div{
+        padding: 4px;
+    }
+
+    .msgtitle{
+        display: flex;
+    }
+
+    .logo2{
+        display:flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .backbtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bck{
+        background-color: black;
+        border: solid black;
+        color: white;
+        border-radius: 4px;
+        font-size: 22px;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+        width:34%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .formdiv{
+        display:flex;
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    form, .submitteddata, .bonus1{
+        display:flex;
+    }
+
+    input[type=text],input[type=email],input[type=number],textarea{
+        display: flex;
+    }
+
+    textarea{
+        display: flex;
+    }
+
+    .title, .slc{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .title2{
+        display: flex;
+    }
+
+    .slc{
+        padding: 0 30px 0 30px;
+        margin: 0 150px 0 150px;
+    }
+
+    select{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .fullname, .info, .msg, .extra{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .extra{
+        display: flex;
+        flex-direction: column;
+        padding: 0 150px 0 150px;
+    }
+
+    .msg, .usermessage, .usermessage2{
+        padding: 0 30px 0 30px;
+        margin: 0 150px 0 150px;
+    }
+
+    .msgtitle{
+        display: flex;
+    }
+
+    .txt{
+        justify-content: center;
+        display: flex;
+        align-self: center;
+    }
+
+    .check{
+        justify-content: center;
+        display: flex;
+        align-self: center;
+    }
+
+    .submitbtn{
+        display:flex;
+        justify-content: center;
+    }
+
+    .infos, .bns{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .userinfo, .userinfo2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .msgtitle{
+        display: flex;
+    }
+
+    .logo2{
+        display:flex;
+    }
+
+    .backbtn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .bck{
+        background-color: black;
+        border: solid black;
+        color: white;
+        border-radius: 4px;
+        font-size: 22px;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+    }
+
+    .bonus{
+        display: flex;
+        flex-direction: column;
+    }
+}
